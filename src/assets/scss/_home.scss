@@ -4,6 +4,23 @@
   overflow: hidden;
   align-items: center;
   text-align: center;
-  background: url("../images/cover-header.jpg") center top;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url("../images/cover-header.jpg") center top;
   background-size: cover;
+
+  &__name {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
 }

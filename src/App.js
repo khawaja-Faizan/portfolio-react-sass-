@@ -1,10 +1,8 @@
 import Home from './view/home/home';
 
 function App() {
-  return (
-    <div className="App">
+  return ( 
     <Home/>
-    </div>
   );
 }
 
