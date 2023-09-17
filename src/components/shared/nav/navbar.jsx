@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
           <li className={`menu-nav__item ${showMenu ? "open" : ""}`}>
             <a href="/projects" className="menu-nav__link">
-              My Projcts
+              My Projects
             </a>
           </li>
           <li className={`menu-nav__item ${showMenu ? "open" : ""}`}>

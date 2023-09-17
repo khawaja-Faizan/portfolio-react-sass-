@@ -17,10 +17,10 @@ const Home = () => {
 
           <div className="social-icons">
             <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} size="2xs" />
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} size="2xs" />
             </a>
           </div>
         </section>

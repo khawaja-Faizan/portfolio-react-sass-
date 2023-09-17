@@ -9,16 +9,17 @@ const About = () => {
       <Navbar />
       <main>
         <section className="about">
-          <div className="avout__bio-image">
-            <h2 className="text-secondary">BIO</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              officiis quod consectetur sunt nesciunt illo perferendis
-              voluptate, illum similique! Maiores rerum qui, soluta magni quod
-              necessitatibus similique. Quo, beatae libero.
-            </p>
+          <div className="about__bio-image">
+            <div className="about__bio">
+              <h2 className="text-secondary">BIO</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+                officiis quod consectetur sunt nesciunt illo perferendis
+                voluptate, illum similique! Maiores rerum qui, soluta magni quod
+                necessitatibus similique. Quo, beatae libero.
+              </p>
+            </div>
           </div>
-
           <div className="jobs">
             <div className="jobs__job">
               {" "}
@@ -60,10 +61,10 @@ const About = () => {
 
           <div className="social-icons">
             <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} size="2xs" />
             </a>
             <a href="#">
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon icon={faGithub} size="2xs" />
             </a>
           </div>
         </section>
