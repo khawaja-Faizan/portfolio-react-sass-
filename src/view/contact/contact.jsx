@@ -1,14 +1,13 @@
 import React from "react";
-import Navbar from "../../components/shared/nav/navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+
+import Footer from "../../components/shared/footer/footer";
 
 const Contact = () => {
   return (
     <>
-      <Navbar />
       <main>
         <section className="contact">
           <h2>Contact Me</h2>
@@ -28,14 +27,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="social-icons">
-            <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} size="2xs" />
-            </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faGithub} size="2xs" />
-            </a>
-          </div>
+          <Footer />
         </section>
       </main>
     </>

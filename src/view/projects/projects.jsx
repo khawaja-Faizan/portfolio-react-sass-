@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "../../components/shared/nav/navbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
+
 import projectImage from "../../assets/images/prj-1.jpg";
+import Footer from "../../components/shared/footer/footer";
 
 const Projects = () => {
   return (
     <>
-      <Navbar />
       <main>
         <section className="projects">
           <div className="projects__bio-image">
@@ -50,14 +50,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="social-icons">
-            <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} size="2xs" />
-            </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faGithub} size="2xs" />
-            </a>
-          </div>
+          <Footer />
         </section>
       </main>
     </>
