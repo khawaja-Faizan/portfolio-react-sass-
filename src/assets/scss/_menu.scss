@@ -17,6 +17,7 @@
     background: set-text-color($primary-color);
     @include transition-ease;
 
+    // Creating the top part of the hamburger
     &::before {
       content: "";
       position: absolute;
@@ -26,7 +27,7 @@
       background: set-text-color($primary-color);
       @include transition-ease;
     }
-
+    // Creating the bottom part of the hamburger
     &::after {
       content: "";
       position: absolute;

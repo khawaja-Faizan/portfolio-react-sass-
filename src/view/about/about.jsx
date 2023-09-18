@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "../../components/shared/nav/navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+import Footer from "../../components/shared/footer/footer";
 
 const About = () => {
   return (
     <>
-      <Navbar />
       <main>
         <section className="about">
           <div className="about__bio-image">
@@ -59,14 +57,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="social-icons">
-            <a href="#">
-              <FontAwesomeIcon icon={faLinkedin} size="2xs" />
-            </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faGithub} size="2xs" />
-            </a>
-          </div>
+          <Footer />
         </section>
       </main>
     </>
